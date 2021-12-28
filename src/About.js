@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div class="slide row">
+        <div class="slide row row-special">
                 <div class="col-3">
                     <img class="about-image" src="https://garudabooks.com/storage/author/737/Manjula_Tekal_150x150.jpg"/>
                 </div>

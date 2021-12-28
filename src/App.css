@@ -101,3 +101,48 @@ Link:hover {
 .medium-link, .medium-link:hover {
   color: black;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .center-tag {
+    position: relative;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col-8 {
+    margin: 0 auto;
+  }
+
+  .story-row {
+    position: relative;
+  }
+
+  p, h3 {
+    color: black;
+    text-align: center;
+  }
+
+  .cent-img {
+    width: 100%;
+  }
+
+  .col-3 {
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+  }
+
+  .book-img {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2%;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+}
