@@ -12,6 +12,7 @@ import {
   Link
 } from "react-router-dom";
 import Story from './Story';
+import Blog from './Blog';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Switch>
           <Route path="/blog">
             <Navbar current="blog"/>
-            <About/>
+            <Blog/>
           </Route>
           <Route path="/stories">
             <Navbar current="stories"/>

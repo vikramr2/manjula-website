@@ -97,3 +97,7 @@ Link:hover {
   position: absolute;
   top: 40%;
 }
+
+.medium-link, .medium-link:hover {
+  color: black;
+}
