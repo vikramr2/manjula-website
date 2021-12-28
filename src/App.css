@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  font-family: 'Sora', sans-serif;
+}
+
+nav {
+  position: absolute;
+}
+
+.centercenter {
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+
+canvas {
+  margin: 0;
+	position: fixed;
+	z-index: -3;
+}
+
+body {
+  background-image: linear-gradient(#f5b587, white);
+  background-attachment:fixed;
+height:100%;
+}
+
+.navbar-default {
+  background: none;
+}
+
+Link:hover {
+  text-decoration: none;
 }
