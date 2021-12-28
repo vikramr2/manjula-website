@@ -12,7 +12,7 @@ body {
   background-image: linear-gradient(#f5b587, white);
   background-attachment:fixed;
   height:100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .navbar-default {
@@ -28,11 +28,6 @@ Link:hover {
   text-align: center;
   width: 100%;
   top: 40%;
-}
-
-.row {
-  position: absolute;
-  top: 30%;
 }
 
 /* Animation to slide entries up */
@@ -62,4 +57,43 @@ Link:hover {
   text-align: center;
   right: 10%;
   width: 60%;
+}
+
+.center2 {
+  margin: 0 auto;
+}
+
+.book-img {
+  margin-left: 15%;
+  width: 70%;
+}
+
+.book-single {
+  width: 25%;
+  margin-left: 37.5%;
+}
+
+.book-title {
+  text-align: center;
+}
+
+.flexie {
+  margin-left: calc(50% - 45px);
+}
+
+.no-flex {
+  display: block;
+}
+
+.cent-img {
+  margin-left: 25%;
+}
+
+.img-two {
+  padding-top: 20px;
+}
+
+.story-row {
+  position: absolute;
+  top: 40%;
 }

@@ -3,12 +3,15 @@ import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
+import Books from './Books';
+import Book from './Book';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Story from './Story';
 
 function App() {
   return (
@@ -21,15 +24,23 @@ function App() {
           </Route>
           <Route path="/stories">
             <Navbar current="stories"/>
-            <About/>
+            <Story/>
           </Route>
           <Route path="/books">
             <Navbar current="books"/>
-            <About/>
+            <Books/>
           </Route>
           <Route path="/about">
             <Navbar current="about"/>
             <About/>
+          </Route>
+          <Route path="/devyani">
+            <Navbar current="books"/>
+            <Book current="devyani"/>
+          </Route>
+          <Route path="/azad">
+            <Navbar current="books"/>
+            <Book current="azad"/>
           </Route>
           <Route exact path="/">
             <Navbar current="home"/>
