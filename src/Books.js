@@ -9,10 +9,10 @@ function Books() {
     return (
         <div class="slide row center2">
             <div class="col">
-                <Link to="/devyani"><img class="book-img" src="https://garudabooks.com/cache/large/product/9742/Devyani-Front-cover.jpg"/></Link>
+                <Link to="/devyani"><img class="book-img" src="https://m.media-amazon.com/images/I/51+6e5U1HML._SY346_.jpg"/></Link>
             </div>
             <div class="col">
-                <Link to="/azad"><img class="book-img" src="https://garudabooks.com/cache/large/product/9805/s7E28kKSpzdBrx5OGANpqDqYYOnr1JjlxKYCSeo1.jpeg"/></Link>
+                <Link to="/azad"><img class="book-img" src="https://m.media-amazon.com/images/I/41imKMm7cgL._AC_SY780_.jpg"/></Link>
             </div>
         </div>
     )

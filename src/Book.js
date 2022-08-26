@@ -1,7 +1,7 @@
 function Book({ current }) {
     const imageDict = {
-        "devyani": "https://garudabooks.com/cache/large/product/9742/Devyani-Front-cover.jpg",
-        "azad": "https://garudabooks.com/cache/large/product/9805/s7E28kKSpzdBrx5OGANpqDqYYOnr1JjlxKYCSeo1.jpeg"
+        "devyani": "https://m.media-amazon.com/images/I/51+6e5U1HML._SY346_.jpg",
+        "azad": "https://m.media-amazon.com/images/I/41imKMm7cgL._AC_SY780_.jpg"
     };
 
     const textDict = {
